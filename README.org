@@ -1,0 +1,17 @@
+#+Title: Hitch Masters
+Hitch Masters is an app that makes GrabHitch better and easier. 
+* Requirements
+** Backend 
+The backend is created with Python Django. To run the program you should first creare virtual environment. Change the the root directory of the project and:
+#+BEGIN_SRC Shell
+virtualenv venv
+source venv/bin/activate
+#+END_SRC
+
+You need to then install the requirements of the project by running 
+#+BEGIN_SRC Shell
+pip install -r requirements.txt
+#+END_SRC
+** Mobile
+* LICENCE
+No licence yet
