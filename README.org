@@ -8,10 +8,13 @@ virtualenv venv
 source venv/bin/activate
 #+END_SRC
 
+In the backend we use postgresql for database. Make sure you have it installed. Well actually at this time it only uses sqlite3, so, don't worry. 
+
 You need to then install the requirements of the project by running 
 #+BEGIN_SRC Shell
 pip install -r requirements.txt
 #+END_SRC
+
 ** Mobile
 * LICENCE
 No licence yet
